@@ -601,7 +601,7 @@ The selection of editing methods is a **crucial** step, as different methods hav
 ```python
 ## In this case, we use MEND method, so you should import `MENDHyperParams`
 from easyeditor import MENDHyperParams
-## Loading config from hparams/MEMIT/gpt2-xl.yaml
+## Loading config from hparams/MEND/gpt2-xl.yaml
 hparams = MENDHyperParams.from_hparams('./hparams/MEND/gpt2-xl')
 ```
 
